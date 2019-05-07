@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "azuresub1reza.database.windows.net";
-    $user = "AZURE_REZA";
-    $pass = "AJINbutak98";
-    $db = "AzureSub1Reza";
+    $host = "";
+    $user = "";
+    $pass = "";
+    $db = "";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
