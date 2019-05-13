@@ -28,7 +28,7 @@
  <?php
     $host = "azuredbsubs1.database.windows.net";
     $user = "DB_ADMIN_REZA";
-    $pass = "AJINbutak98";
+    $pass = "";
     $db = "AzureDBsubs1";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
